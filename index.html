@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Thousand Sunny</title>
+</head>
+
+<body>
+    <header class="mb-5 header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <img src="img/logo.svg" alt="logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="#">Destiantions</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="#">Partners</a>
+                            </li>
+                        </ul>
+                        <a class="btn btn-light btn-lg me-4 header__btn login__btn" href="#" role="button">Login</a>
+                        <a class="btn btn-light btn-lg header__btn regsiter__btn" href="#" role="button">Register</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="parralax-elements">
+            <div class="rellax" id="rellax_1">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                        fill="#FDD08D" />
+                </svg>
+            </div>
+            <div class="rellax" id="rellax_2">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                        fill="#FDD08D" />
+                </svg>
+            </div>
+            <div class="rellax" id="rellax_3">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                        fill="#FDD08D" />
+                </svg>
+            </div>
+            <div class="rellax" id="rellax_4">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                        fill="#FDD08D" />
+                </svg>
+            </div>
+            <div class="rellax" id="rellax_5">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                        fill="#FDD08D" />
+                </svg>
+            </div>
+            <div class="rellax" id="rellax_6">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                        fill="#FDD08D" />
+                </svg>
+            </div>
+            <div class="rellax" id="rellax_7">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                        fill="#FDD08D" />
+                </svg>
+            </div>
+            <div class="rellax" id="rellax_8">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                        fill="#FDD08D" />
+                </svg>
+            </div>
+        </div>
+        <div class="parralax-elements-tp-2">
+            <div class="rellax" id="rellax-tp-2_1">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                        fill="url(#paint0_linear_1_888)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915" y2="24.8866"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#BFF0DD" />
+                            <stop offset="1" stop-color="#57D2A3" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="rellax" id="rellax-tp-2_2">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                        fill="url(#paint0_linear_1_888)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915" y2="24.8866"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#BFF0DD" />
+                            <stop offset="1" stop-color="#57D2A3" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="rellax" id="rellax-tp-2_3">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                        fill="url(#paint0_linear_1_888)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915" y2="24.8866"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#BFF0DD" />
+                            <stop offset="1" stop-color="#57D2A3" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="rellax" id="rellax-tp-2_4">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                        fill="url(#paint0_linear_1_888)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915" y2="24.8866"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#BFF0DD" />
+                            <stop offset="1" stop-color="#57D2A3" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="rellax" id="rellax-tp-2_5">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                        fill="url(#paint0_linear_1_888)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915" y2="24.8866"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#BFF0DD" />
+                            <stop offset="1" stop-color="#57D2A3" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="rellax" id="rellax-tp-2_6">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                        fill="url(#paint0_linear_1_888)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915" y2="24.8866"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#BFF0DD" />
+                            <stop offset="1" stop-color="#57D2A3" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="rellax" id="rellax-tp-2_7">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                        fill="url(#paint0_linear_1_888)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915" y2="24.8866"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#BFF0DD" />
+                            <stop offset="1" stop-color="#57D2A3" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="rellax" id="rellax-tp-2_8">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                        fill="url(#paint0_linear_1_888)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915" y2="24.8866"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#BFF0DD" />
+                            <stop offset="1" stop-color="#57D2A3" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+        <section class="section hero">
+            <div class="container hero__container">
+                <div class="row">
+                    <div class="col-lg-6 pt-1">
+                        <h1 class="hero__title">Explore and Travel</h1>
+                        <div class="hero__subtitle mb-5">
+                            <h3 class="hero__sub-title p-2">Holiday finder</h3>
+                            <span class="hero__decoration ps-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="2" viewBox="0 0 32 2"
+                                    fill="none">
+                                    <rect width="32" height="2" rx="1" fill="#202336" />
+                                </svg>
+                        </div>
+                        </span>
+                        <div class="row hero__forms mb-5 ps-3">
+                            <select class="form-select form-select-sm mb-3 me-3" aria-label=".form-select-sm">
+                                <option selected>Location</option>
+                                <option value="">One</option>
+                                <option value="">Two</option>
+                                <option value="">Three</option>
+                            </select>
+                            <select class="form-select form-select-sm mb-3 me-3" aria-label=".form-select-sm">
+                                <option selected>Activity</option>
+                                <option value="">One</option>
+                                <option value="">Two</option>
+                                <option value="">Three</option>
+                            </select>
+                            <select class="form-select form-select-sm mb-3 me-3" aria-label=".form-select-sm">
+                                <option selected>Grade</option>
+                                <option value="">One</option>
+                                <option value="">Two</option>
+                                <option value="">Three</option>
+                            </select>
+                            <select class="form-select form-select-sm mb-3" aria-label=".form-select-sm">
+                                <option selected>Date</option>
+                                <option value="">One</option>
+                                <option value="">Two</option>
+                                <option value="">Three</option>
+                            </select>
+                        </div>
+                        <a class="btn btn-light btn-lg me-2 mb-5 hero__btn" href="#" role="button">Explore</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <picture>
+                            <source srcset="img/thousand-01 1.svg" media="(min-width: 768px)">
+                            <source srcset="img/Thousand-01 1.svg" media="(max-width: 768px)">
+                            <img src="img/thousand-01 1.svg" alt="">
+                        </picture>
+                    </div>
+                </div>
+        </section>
+        <section class="section more">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <picture>
+                            <source srcset="img/Thousand-02 1.svg" media="(min-width: 768px)">
+                            <source srcset="img/Thousand-02 1.svg" media="(max-width: 768px)">
+                            <img src="img/Thousand-02 1.svg" alt="">
+                        </picture>
+                    </div>
+                    <div class="col-md-4 col-sm-12 d-flex flex-column my-auto mx-auto">
+                        <h2 class="section__title more__title mb-3">A new way to explore the world</h2>
+                        <p class="more__descr mb-5">For decades travellers have reached for Lonely Planet books when
+                            looking
+                            to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences
+                            lead the way</p>
+                        <a class="btn btn-light btn-lg more__btn" href="#" role="button">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section destinations">
+            <div class="container destinations__container">
+                <div class="row mb-5">
+                    <div class="col-6">
+                        <h2 class="section__title destinations__title">Featured destinations</h2>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <a class="btn btn-light btn-lg destinations__btn" href="#" role="button">View all</a>
+                        <span class="destinations-btn__decor">
+                            <svg width="6" height="11" viewBox="0 0 6 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L5 5.5L1 10" stroke="#FB8F1D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-xs-12 mb-3 card destinations__card">
+                        <img src="img/destination-cover-1.jpg" class="card-img-top destinations__card-img" alt="...">
+                        <div class="card-body destinations__card-info">
+                            <h4 class="card__location">Raja Ampat</h4>
+                            <p class="card__country">Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12 mb-3 card destinations__card">
+                        <img src="img/destination-cover-2.jpg" class="card-img-top destinations__card-img" alt="...">
+                        <div class="card-body destinations__card-info">
+                            <h4 class="card__location">Fanjingshan</h4>
+                            <p class="card__country">China</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12 mb-3 card destinations__card">
+                        <img src="img/destination-cover-3.jpg" class="card-img-top destinations__card-img" alt="...">
+                        <div class="card-body destinations__card-info">
+                            <h4 class="card__location">Vevey</h4>
+                            <p class="card__country">Switzerland</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12 mb-3 card destinations__card">
+                        <img src="img/destination-cover-4.jpg" class="card-img-top destinations__card-img" alt="...">
+                        <div class="card-body destinations__card-info">
+                            <h4 class="card__location">Skadar</h4>
+                            <p class="card__country">Montenegro</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="section guides">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 d-flex flex-column pt-5 pe-3 my-auto me-auto">
+                        <h2 class="section__title guides__title">Guides by Thousand Sunny</h2>
+                        <p class="guides__descr">Packed with tips and advice from our on-the-ground experts, our city
+                            guides
+                            app
+                            (iOS and Android) is the ultimate resource before and during a trip.</p>
+                        <a class="btn btn-light btn-lg guides__btn" href="#" role="button">Download</a>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <picture>
+                            <source srcset="img/Thousand-03 1.svg" media="(min-width: 768px)">
+                            <source srcset="img/Thousand-03 1.svg" media="(max-width: 768px)">
+                            <img src="img/Thousand-03.svg" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rewiev section">
+            <div class="container">
+                <h2 class="section__title rewiev__title">Testimonials</h2>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <span class="rewiev__decor-1">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                                        fill="url(#paint0_linear_1_888)" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915"
+                                            y2="24.8866" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#BFF0DD" />
+                                            <stop offset="1" stop-color="#57D2A3" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <img src="img/image 6.jpg" class="ms-auto d-block rewiev__photo" alt="...">
+                            <span class="rewiev__decor-2">
+                                <svg width="40" height="40" viewBox="0 0 21 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                                        fill="#FDD08D" />
+                                </svg>
+                            </span>
+                            <div class="carousel-caption d-md-block">
+                                <div class="rewiev__rating">
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                </div>
+                                <p class="rewiev__comment mb-5">“Quisque in lacus a urna fermentum euismod. Integer mi
+                                    nibh,
+                                    dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
+                                </p>
+                                <h5 class="rewiev__name">Edward Newgate</h5>
+                                <p class="rewiev__occupation">Founder Circle</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <span class="rewiev__decor-1">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                                        fill="url(#paint0_linear_1_888)" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915"
+                                            y2="24.8866" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#BFF0DD" />
+                                            <stop offset="1" stop-color="#57D2A3" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <img src="img/image 6.jpg" class="ms-auto d-block rewiev__photo" alt="...">
+                            <span class="rewiev__decor-2">
+                                <svg width="40" height="40" viewBox="0 0 21 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                                        fill="#FDD08D" />
+                                </svg>
+                            </span>
+                            <div class="carousel-caption d-md-block">
+                                <div class="rewiev__rating"><span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                </div>
+                                <p class="rewiev__comment mb-5">“Quisque in lacus a urna fermentum euismod. Integer mi
+                                    nibh,
+                                    dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
+                                </p>
+                                <h5 class="rewiev__name">Edward Newgate</h5>
+                                <p class="rewiev__occupation">Founder Circle</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="rewiev__decor-1">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.18132 18.4005C-1.81721 11.9036 1.10028 4.18861 7.58359 1.1838C14.0669 -1.82101 21.7658 1.10256 24.7644 7.59945C27.7629 14.0963 24.8454 21.8114 18.3621 24.8162C11.8788 27.821 4.17986 24.8974 1.18132 18.4005ZM4.74714 16.7763C6.85422 21.3241 12.203 23.3544 16.8223 21.2429C21.3606 19.1314 23.3867 13.7715 21.2796 9.14248C19.1725 4.51345 13.8238 2.56438 9.20442 4.67587C4.6661 6.78736 2.64007 12.2285 4.74714 16.7763Z"
+                                        fill="url(#paint0_linear_1_888)" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_1_888" x1="7.76221" y1="1.12598" x2="18.2915"
+                                            y2="24.8866" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#BFF0DD" />
+                                            <stop offset="1" stop-color="#57D2A3" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <img src="img/image 6.jpg" class="ms-auto d-block rewiev__photo" alt="...">
+                            <span class="rewiev__decor-2">
+                                <svg width="40" height="40" viewBox="0 0 21 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.698 19.5325L12.6228 13.0237C12.6555 12.7748 12.8545 12.5478 13.1149 12.4976L19.6387 12.4266C19.8882 12.4594 20.0872 12.2323 20.1308 11.9004L20.1007 8.26722C20.1335 8.01832 19.9058 7.81959 19.5731 7.77587L13.0493 7.84688C12.7998 7.81408 12.5721 7.61536 12.5217 7.35553L12.4464 0.846713C12.4792 0.597808 12.2515 0.399078 11.9188 0.355357L8.2772 0.38317C8.0277 0.350379 7.82866 0.577422 7.78504 0.909296L7.86028 7.41811C7.82756 7.66701 7.62852 7.89406 7.36811 7.94423L0.844312 8.01526C0.594812 7.98247 0.395766 8.20951 0.352149 8.54138L0.382245 12.1746C0.349532 12.4235 0.577234 12.6222 0.909901 12.666L7.4337 12.5949C7.6832 12.6277 7.9109 12.8265 7.96136 13.0863L8.03654 19.5951C8.00383 19.844 8.23153 20.0427 8.5642 20.0865L12.2058 20.0587C12.4662 20.0085 12.6652 19.7814 12.698 19.5325Z"
+                                        fill="#FDD08D" />
+                                </svg>
+                            </span>
+                            <div class="carousel-caption d-md-block">
+                                <div class="rewiev__rating">
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                    <span class="star">&bigstar;</span>
+                                </div>
+                                <p class="rewiev__comment mb-5">“Quisque in lacus a urna fermentum euismod. Integer mi
+                                    nibh,
+                                    dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
+                                </p>
+                                <h5 class="rewiev__name">Edward Newgate</h5>
+                                <p class="rewiev__occupation">Founder Circle</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__btn d-flex ms-auto justify-content-end">
+                        <button class="carousel-control-prev me-5" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section stories">
+            <div class="container">
+                <div class="row stories__row">
+                    <div class="col-6">
+                        <h2 class="section__title">Trending stories</h2>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <a class="btn btn-light btn-lg destinations__btn" href="#" role="button">View all</a>
+                        <span class="stories-btn__decor">
+                            <svg width="6" height="11" viewBox="0 0 6 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L5 5.5L1 10" stroke="#FB8F1D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-lg-3 col-sm-6 col-xs-12 stories__card">
+                        <img src="img/image 12.jpg" class="card-img-top stories__card-img" alt="...">
+                        <div class="card-body stories__card-body d-flex flex-column">
+                            <h5 class="card-title stories__card-title">The many benefits of
+                                taking a healing holiday</h5>
+                            <p class="card-text stories__card-text">‘Helaing holidays’ are on the rise
+                                tohelp maximise your health and happines...</p>
+                            <a href="#" class="btn btn-light mt-auto  me-auto stories__card-btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-sm-6 col-xs-12 stories__card">
+                        <img src="img/image 13.jpg" class="card-img-top stories__card-img" alt="...">
+                        <div class="card-body stories__card-body d-flex flex-column">
+                            <h5 class="card-title stories__card-title">The best Kyoto restaurant
+                                to try Japanese food</h5>
+                            <p class="card-text stories__card-text">From tofu to teahouses, here’s our guide to Kyoto’s
+                                best restaurants to visit...</p>
+                            <a href="#" class="btn btn-light mt-auto me-auto stories__card-btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-sm-6 col-xs-12 stories__card">
+                        <img src="img/image 14.jpg" class="card-img-top stories__card-img" alt="...">
+                        <div class="card-body stories__card-body d-flex flex-column">
+                            <h5 class="card-title stories__card-title">Skip Chichen Itza and head
+                                to this remote Yucatan</h5>
+                            <p class="card-text stories__card-text">It's remote and challenging to get, but braving the
+                                jungle and exploring these ruins without the...</p>
+                            <a href="#" class="btn btn-light mt-auto me-auto stories__card-btn">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-sm-6 col-xs-12 stories__card">
+                        <img src="img/image 15.jpg" class="card-img-top stories__card-img" alt="...">
+                        <div class="card-body stories__card-body d-flex flex-column">
+                            <h5 class="card-title stories__card-title">Surf's up at these beginner
+                                spots around the world</h5>
+                            <p class="card-text stories__card-text">If learning to surf has in on your to-do list for
+                                awhile, the good news is: it's never too late...</p>
+                            <a href="#" class="btn btn-light mt-auto me-auto stories__card-btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer pb-3">
+        <div class="container footer__container">
+            <div class="row footer__row mb-3 pb-5 d-flex">
+                <div class="col-xl-3 me-auto footer__copyright">
+                    <img src="img/logo.svg" alt="" class="footer__logo mb-3">
+                    <p class="footer__advice">Plan and book your perfect trip with expert advice, travel tips
+                        destination information from us
+                    </p>
+                    <p class="copyright">
+                        ©2020 Thousand Sunny. All rights reserved
+                    </p>
+                </div>
+                <div class="col-xl-2 col-sm-4 footer__destinations">
+                    <h3 class="footer-destinations__title mb-3">Destinations</h3>
+                    <ul class="footer-destinations__list list-reset">
+                        <li class="footer-list__item">
+                            <a href="">Africa</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">Antarctica</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">Asia</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">Europe</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">America</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-sm-4 footer__shop">
+                    <h3 class="footer-shop__title mb-3">Shop</h3>
+                    <ul class="footer-shop__list list-reset">
+                        <li class="footer-list__item">
+                            <a href="">Destination Guides</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">Pictorial & Gifts</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">Special Offers</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">Delivery Times</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-sm-4 footer__interests">
+                    <h3 class="footer-interesr__title mb-3">Interests</h3>
+                    <ul class="footer-interests__list list-reset">
+                        <li class="footer-list__item">
+                            <a href="">Adventure Travel</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">Art And Culture</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">Wildlife And Nature</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">Family Holidays</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="">Food And Drink</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__social pb-2">
+                <ul class="footer-social__list list-reset d-flex flex-row justify-content-center">
+                    <li class="social__item me-3">
+                        <a href="">
+                            <svg width="25" height="20" viewBox="0 0 25 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24.999 2.3741C24.0253 2.78177 23.0273 3.04556 22.0536 3.16547C23.1733 2.51799 23.9036 1.58273 24.3174 0.383693C23.295 0.959233 22.1996 1.36691 21.0555 1.58273C20.0331 0.527578 18.7916 0 17.3067 0C15.8948 0 14.6777 0.503597 13.6797 1.48681C12.6816 2.47002 12.1704 3.66906 12.1704 5.05995C12.1704 5.44365 12.2191 5.82734 12.2921 6.21103C10.1986 6.11511 8.22688 5.58753 6.40117 4.65228C4.57546 3.71703 3.01753 2.47002 1.72736 0.935252C1.26485 1.72662 1.02142 2.56595 1.02142 3.47722C1.02142 4.34053 1.21617 5.15588 1.62999 5.8753C2.04382 6.6187 2.6037 7.21823 3.2853 7.67386C2.45765 7.64988 1.67868 7.43405 0.972738 7.02638V7.09832C0.972738 8.32134 1.36222 9.3765 2.14119 10.3118C2.92016 11.223 3.89387 11.8225 5.08666 12.0623C4.64849 12.1823 4.18598 12.2302 3.74781 12.2302C3.4557 12.2302 3.13924 12.2062 2.7741 12.1583C3.09056 13.1655 3.69913 14.0048 4.57546 14.6523C5.4518 15.2998 6.44986 15.6355 7.56962 15.6595C5.71957 17.0983 3.57741 17.8177 1.21617 17.8177C0.753654 17.8177 0.339827 17.7938 -0.0253143 17.7458C2.36028 19.2566 4.98929 20 7.83739 20C9.6631 20 11.3671 19.7122 12.9737 19.1607C14.5803 18.5851 15.9435 17.8417 17.0633 16.8825C18.1831 15.9233 19.1811 14.8201 19.9844 13.5971C20.8121 12.3501 21.4206 11.0552 21.8101 9.71223C22.1996 8.3693 22.4187 7.0024 22.4187 5.65947C22.4187 5.3717 22.4187 5.15588 22.3944 5.01199C23.4411 4.26858 24.2931 3.40528 24.999 2.3741Z"
+                                    fill="black" />
+                            </svg>
+
+                        </a>
+                    </li>
+                    <li class="social__item me-3">
+                        <a href="">
+                            <svg width="10" height="22" viewBox="0 0 10 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.64671 7.21043V5.3054C6.64671 5.01862 6.66667 4.7933 6.68663 4.64991C6.70659 4.48603 6.76647 4.34264 6.86627 4.19925C6.96607 4.05587 7.10579 3.95344 7.30539 3.89199C7.50499 3.83054 7.78443 3.81006 8.12375 3.81006H9.98004V0H7.00599C5.28942 0 4.07186 0.409683 3.33333 1.24953C2.59481 2.08939 2.21557 3.29795 2.21557 4.93669V7.21043H0V11H2.21557V22H6.64671V11H9.6008L10 7.21043H6.64671Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item me-3">
+                        <a href="">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.9305 0H6.06953C2.71746 0 0 2.71746 0 6.06953V15.9305C0 19.2825 2.71746 22 6.06953 22H15.9305C19.2825 22 22 19.2825 22 15.9305V6.06953C22 2.71746 19.2825 0 15.9305 0ZM20.0473 15.9305C20.0473 18.2086 18.1923 20.0473 15.9305 20.0473H6.06953C3.79142 20.0473 1.95266 18.1923 1.95266 15.9305V6.06953C1.95266 3.80769 3.80769 1.95266 6.06953 1.95266H15.9305C18.2086 1.95266 20.0473 3.80769 20.0473 6.06953V15.9305Z"
+                                    fill="black" />
+                                <path
+                                    d="M11 5.33716C7.87573 5.33716 5.321 7.87562 5.321 10.9999C5.321 14.1241 7.85946 16.6789 11 16.6789C14.1243 16.6789 16.679 14.1404 16.679 10.9999C16.679 7.87562 14.1243 5.33716 11 5.33716ZM11 14.7262C8.94969 14.7262 7.27366 13.0664 7.27366 11.0162C7.28993 8.94958 8.94969 7.28982 11 7.28982C13.0503 7.28982 14.7263 8.94958 14.7263 10.9999C14.7263 13.0502 13.0503 14.7262 11 14.7262Z"
+                                    fill="black" />
+                                <path
+                                    d="M16.9068 3.67749C16.5325 3.67749 16.1583 3.82394 15.8979 4.10057C15.6376 4.36092 15.4748 4.73518 15.4748 5.10944C15.4748 5.4837 15.6213 5.85796 15.8979 6.11832C16.1583 6.37867 16.5325 6.5414 16.9068 6.5414C17.2811 6.5414 17.6553 6.39495 17.9157 6.11832C18.176 5.85796 18.3388 5.4837 18.3388 5.10944C18.3388 4.73518 18.1923 4.36092 17.9157 4.10057C17.6553 3.82394 17.2973 3.67749 16.9068 3.67749Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item me-3">
+                        <a href="">
+                            <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.21578 7.14941H0.275716V22H5.21578V7.14941Z" fill="black" />
+                                <path
+                                    d="M21.4376 8.50559C20.4036 7.37916 19.025 6.80444 17.3247 6.80444C16.7043 6.80444 16.1299 6.87341 15.6014 7.03433C15.0959 7.19525 14.6593 7.40214 14.2917 7.67801C13.947 7.95387 13.6483 8.20674 13.4416 8.45962C13.2348 8.6895 13.0509 8.94237 12.8671 9.24123V7.12628H7.95004L7.97302 7.83893C7.97302 8.32168 7.996 9.79295 7.996 12.2757C7.996 14.7585 7.996 17.9769 7.97302 21.9769H12.8901V13.701C12.8901 13.1952 12.9361 12.7815 13.0509 12.4826C13.2577 11.9769 13.5794 11.5401 13.993 11.1952C14.4066 10.8504 14.9351 10.6895 15.5784 10.6895C16.4286 10.6895 17.0719 10.9884 17.4625 11.5861C17.8761 12.1838 18.0599 13.0113 18.0599 14.0458V21.9769H22.977V13.4711C23 11.2872 22.4945 9.63203 21.4376 8.50559Z"
+                                    fill="black" />
+                                <path
+                                    d="M2.78022 0C1.95305 0 1.28671 0.252874 0.781219 0.735632C0.252747 1.21839 0 1.81609 0 2.55172C0 3.28736 0.252747 3.88506 0.758242 4.39081C1.26374 4.87356 1.90709 5.12644 2.73427 5.12644H2.75724C3.60739 5.12644 4.27373 4.87356 4.77922 4.39081C5.28472 3.90805 5.53746 3.28736 5.53746 2.55172C5.53746 1.81609 5.26174 1.1954 4.77922 0.712644C4.27373 0.252874 3.60739 0 2.78022 0Z"
+                                    fill="black" />
+                            </svg>
+
+
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="">
+                            <svg width="29" height="20" viewBox="0 0 29 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.9856 7.64988C27.9856 7.09832 27.9376 6.3789 27.8417 5.51559C27.7698 4.65228 27.6499 3.88489 27.506 3.21343C27.3381 2.44604 26.9784 1.82254 26.4269 1.29496C25.8753 0.767386 25.2278 0.479616 24.4844 0.383693C22.1823 0.119904 18.6811 0 14.0048 0C9.32854 0 5.82734 0.119904 3.52518 0.383693C2.78177 0.479616 2.13429 0.767386 1.58273 1.29496C1.03118 1.82254 0.671463 2.44604 0.503597 3.21343C0.335731 3.88489 0.239808 4.65228 0.143885 5.51559C0.0719424 6.3789 0.0239808 7.09832 0 7.64988C0 8.22542 0 8.99281 0 10C0 11.0072 0 11.7746 0.0239808 12.3501C0.0239808 12.9017 0.0719424 13.6211 0.167866 14.4844C0.215827 15.3477 0.335731 16.1151 0.479616 16.7866C0.647482 17.554 1.00719 18.1775 1.55875 18.705C2.11031 19.2326 2.75779 19.5204 3.5012 19.6163C5.80336 19.8801 9.30456 20 13.9808 20C18.6571 20 22.1583 19.8801 24.4604 19.6163C25.2038 19.5444 25.8513 19.2326 26.4029 18.705C26.9544 18.1775 27.3141 17.554 27.482 16.7866C27.6499 16.1151 27.7458 15.3477 27.8417 14.4844C27.9137 13.6211 27.9616 12.9017 27.9856 12.3501C27.9856 11.7986 28.0096 11.0072 28.0096 10C28.0096 8.99281 28.0096 8.22542 27.9856 7.64988ZM19.5444 10.8393L11.5348 15.8513C11.3909 15.9472 11.223 16.0192 11.0072 16.0192C10.8393 16.0192 10.6954 15.9712 10.5276 15.8993C10.1918 15.7074 10 15.4197 10 15.012V5.01199C10 4.60432 10.1679 4.31655 10.5276 4.1247C10.8873 3.93285 11.223 3.95683 11.5348 4.14868L15.5396 6.65468L19.5444 9.16067C19.8561 9.32854 20.024 9.61631 20.024 10C20 10.3837 19.8561 10.6715 19.5444 10.8393Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+:root {
+    --main-backgound: #FFFFFF;
+    --main-orange: #FB8F1D;
+    --footer-background: #F9F9FB;
+}
+
+body {
+    background-color: var(--main-backgound);
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display';
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section {
+    margin-bottom: 180px;
+}
+
+.card {
+    background-color: unset;
+}
+
+.btn {
+    font-family: 'Inter';
+    color: var(--main-orange);
+    border-radius: 10px;
+}
+
+.header {
+    padding-top: 2.5rem;
+}
+
+.nav-link {
+    font-family: 'Inter';
+    color: #B8BECD;
+}
+
+.header__btn {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.login__btn {
+    background-color: var(--main-backgound);
+    border-color: var(--main-orange);
+    width: 8.1rem;
+}
+
+.regsiter__btn {
+    color: #FFFFFF;
+    border: none;
+    background-color: var(--main-orange);
+    width: 8.1rem;
+}
+
+.hero {
+    margin-bottom: 380px;
+}
+
+.hero__title {
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 75px;
+    padding-right: 100px;
+}
+
+.hero__sub-title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.63px;
+}
+
+.form-select {
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 32px;
+    color: #4A4C53;
+    width: 13.75rem;
+    height: 3rem;
+    display: inline-block;
+}
+
+.hero__btn {
+    color: #FFFFFF;
+    border: none;
+    background-color: var(--main-orange);
+    width: 12rem;
+}
+
+.more {
+    margin-bottom: 300px;
+}
+
+.more__title {
+    font-size: 36px;
+}
+
+.more__descr {
+    color: #7D7987;
+}
+
+.more__btn {
+    width: 11rem;
+    color: #FFFFFF;
+    border: none;
+    background-color: var(--main-orange);
+}
+
+.destinations__title {
+    font-size: 36px;
+}
+
+.destinations__btn {
+    color: var(--main-orange);
+    border: none;
+    background-color: unset;
+}
+
+.destinations-btn__decor {
+    padding-top: 10px;
+}
+
+.destinations__card {
+    border: none;
+}
+
+.destinations__card-img {
+    width: 90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.destinations__card-info {
+    background-color: var(--main-backgound);
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    margin-top: -70px;
+    width: 150px;
+    padding-left: 0;
+}
+
+.card__country {
+    color: #80918E;
+}
+
+.guides {
+    margin-bottom: 200px;
+}
+
+.guides__title {
+    font-size: 36px;
+}
+
+.guides__btn {
+    color: #FFFFFF;
+    border: none;
+    background-color: var(--main-orange);
+    width: 11rem;
+}
+
+.rewiev__title {
+    font-size: 36px;
+}
+
+.rewiev__descr {
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 17px;
+    color: #7D7987;
+}
+
+.rewiev__comment {
+    font-family: 'Mulish';
+    font-size: 24px;
+}
+
+.rewiev__name {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.rewiev__occupation {
+    font-family: 'Inter';
+    font-size: 18px;
+}
+
+.rewiev__rating {
+    overflow: hidden;
+}
+
+.rewiev__photo {
+    border-radius: 40px;
+    width: 30%;
+    padding: 20px;
+}
+
+.rewiev__decor-1 {
+    overflow: visible;
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    z-index: -4;
+}
+
+.rewiev__decor-2 {
+    overflow: visible;
+    position: absolute;
+    bottom: 0.75%;
+    right: 26.36%;
+    z-index: 4;
+}
+
+.carousel__btn {
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 80px;
+    border-top-left-radius: 20px;
+    margin-top: -50px;
+    margin-right: -1px;
+    z-index: 2;
+    position: relative;
+}
+
+.carousel-control-next {
+    position: unset;
+    padding-bottom: 20px;
+}
+
+.carousel-control-prev {
+    position: unset;
+    padding-bottom: 20px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-size: 200%;
+}
+
+.carousel-caption {
+    right: 0;
+    left: 0;
+    text-align: left;
+    max-width: 450px;
+}
+
+
+.star {
+    color: var(--main-orange);
+    font-size: 36px;
+}
+
+.stories__row {
+    margin-bottom: 60px;
+}
+
+.stories-btn__decor {
+    padding-top: 10px;
+}
+
+.stories__card {
+    border: none;
+    overflow: hidden;
+}
+
+.stories__card-body {
+    padding-left: 0;
+}
+
+.stories__card-title {
+    font-family: 'Inter';
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.stories__card-text {
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #7D7987;
+}
+
+.stories__card-btn {
+    background-color: unset;
+    border: none;
+    padding-left: 0;
+}
+
+.stories__card-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    height: 250px;
+}
+
+.footer {
+    background-color: var(--footer-background);
+}
+
+.footer__container {
+    padding-top: 5rem;
+}
+
+.footer__copyright {
+    font-family: 'Mulish';
+    font-size: 17px;
+    font-weight: 300;
+    color: #848484;
+}
+
+.footer__row {
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.copyright {
+    width: 30rem;
+}
+
+.footer-list__item {
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 300;
+    color: #848484;
+}
+
+.rellax {
+    position: absolute;
+    z-index: -2;
+}
+
+#rellax_1 {
+    top: 228%;
+    left: 70%;
+}
+
+#rellax_2 {
+    top: 30%;
+    left: 33%;
+}
+
+#rellax_3 {
+    top: 105%;
+    left: 62%;
+}
+
+#rellax_4 {
+    top: 114%;
+    left: 40%;
+}
+
+#rellax_5 {
+    top: 164%;
+    left: 50%;
+}
+
+#rellax_6 {
+    top: 184%;
+    left: 45%;
+}
+
+#rellax_7 {
+    top: 15%;
+    left: 85%;
+}
+
+#rellax_8 {
+    top: 74%;
+    left: 63%;
+}
+
+#rellax-tp-2_1 {
+    top: 152%;
+    left: 39%;
+}
+
+#rellax-tp-2_2 {
+    top: 115%;
+    left: 67%;
+}
+
+#rellax-tp-2_3 {
+    top: 202%;
+    left: 35%;
+}
+
+#rellax-tp-2_4 {
+    top: 241%;
+    left: 53%;
+}
+
+#rellax-tp-2_5 {
+    top: 144%;
+    left: 16%;
+}
+
+#rellax-tp-2_6 {
+    top: 44%;
+    left: 66%;
+}
+
+#rellax-tp-2_7 {
+    top: 10%;
+    left: 22%;
+}
+
+#rellax-tp-2_8 {
+    top: 4%;
+    left: 89%;
+}
