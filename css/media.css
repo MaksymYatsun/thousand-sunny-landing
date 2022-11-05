@@ -1,0 +1,89 @@
+@media (max-width: 1200px) {
+    .section {
+        margin-bottom: 80px;
+    }
+
+    .hero {
+       margin-bottom: 80px;
+    }
+
+    .more {
+        margin-bottom: 80px; 
+    }
+
+    .carousel__btn {
+        max-width: 110px;
+    }
+}
+
+@media (max-width: 992px) {
+    .more__cover {
+        display: none;
+    }
+
+    .carousel-item {
+        height: 400px;
+    }
+
+    .rewiev__comment {
+        font-size: 16px;
+        max-width: 270px;
+    }
+
+    .rewiev__photo {
+        padding: 10px;
+        width: 43%;
+    } 
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        font-size: 13px;
+        max-width: 270px;
+    }
+
+    .rewiev__comment {
+        font-size: 16px;
+    }
+
+    .rewiev__photo {
+        padding: 10px;
+        width: 40%;
+    } 
+
+    .carousel__btn {
+        max-width: 200px;
+        background-color: unset;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-select {
+        width: 95%;
+    }
+
+    .destinations__card-img {
+        width: 100%;
+    }
+
+    .rewiev__photo {
+        display: none!important;
+    }
+
+    .carousel-caption {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .rewiev__comment {
+        font-size: 22px;
+        max-width: 100%;
+    }
+
+    .carousel__btn {
+        margin-top: -20px;
+        max-width: 100%;
+        width: 100%;
+    }
+}
